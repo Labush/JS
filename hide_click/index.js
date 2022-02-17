@@ -1,3 +1,4 @@
+/*** https://github.com/Labush/JS ***/
 const showLink = document.querySelector('#showLink');
 showLink.addEventListener('click', () => {
     document.querySelector('.content_hide').style.display = 'block';
