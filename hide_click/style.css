@@ -1,0 +1,88 @@
+.divfaq {
+  text-align: center;
+}
+
+.content_hide {
+  display: none;
+}
+#showLink {
+  color: black;
+  font-size: 28px;
+}
+#resp {
+  color: black;
+  font-size: 19px !important;
+  letter-spacing: 1px;
+}
+#hide {
+  margin-top: 20px;
+  border: solid 2px black;
+  width: 800px;
+  margin-left: 25%;
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 20px;
+}
+#hideLink {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+/********/
+.content_hide1 {
+  display: none;
+}
+#showLink1 {
+  color: black;
+  font-size: 28px;
+}
+#resp {
+  color: black;
+  font-size: 19px !important;
+  letter-spacing: 1px;
+}
+#hide1 {
+  margin-top: 20px;
+  border: solid 2px black;
+  width: 800px;
+  margin-left: 25%;
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 20px;
+}
+#hideLink1 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+/********/
+.content_hide2 {
+  display: none;
+}
+#showLink2 {
+  color: black;
+  font-size: 28px;
+}
+#resp {
+  color: black;
+  font-size: 19px !important;
+  letter-spacing: 1px;
+}
+#hide2 {
+  margin-top: 20px;
+  border: solid 2px black;
+  width: 800px;
+  margin-left: 25%;
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 20px;
+}
+#hideLink2 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.fas {
+  cursor: pointer;
+}
