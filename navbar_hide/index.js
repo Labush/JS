@@ -1,3 +1,4 @@
+/** https://github.com/Labush/JS ****/
 const nav = document.querySelector('nav');
 
 window.addEventListener('scroll', () => {
