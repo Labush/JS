@@ -1,0 +1,30 @@
+/***** https://github.com/Labush/JS *****/
+body {
+  overflow-y: hidden;
+  display: flex;
+  font-size: 50px;
+  color: #358fb4;
+  align-items: center;
+  justify-content: center;
+}
+#target {
+  position: relative;
+}
+#target::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 12px;
+  width: 7px;
+  background: #f4bb58;
+  right: -15px;
+  animation: flash 0.8s linear infinite;
+}
+@keyframes flash {
+  30% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
