@@ -1,3 +1,4 @@
+/** https://github.com/Labush/JS ****/
 let panier = [];
 let total = 0;
 
