@@ -1,0 +1,19 @@
+/******* https://github.com/Labush/JS *******/
+
+.slider {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 25%;
+  gap: 25px;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  cursor: grab;
+}
+.slider::-webkit-scrollbar {
+  display: none;
+}
+.slide img {
+  inline-size: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
