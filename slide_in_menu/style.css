@@ -1,0 +1,97 @@
+/******https://github.com/Labush/JS******/
+body {
+  margin: 0;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.menu_liens {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1.4px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.menu_liens:hover {
+  color: #bca0c6;
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+  text-underline-offset: -1px;
+}
+li {
+  margin-top: 15px;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  background: #bca0c6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+#titre {
+  color: white;
+  letter-spacing: 1.4px;
+  margin-right: -10px;
+}
+
+nav {
+  background: #222;
+  z-index: 0;
+  top: 0;
+  padding: 20px;
+  padding-top: 80px;
+  height: 100%;
+  box-sizing: border-box;
+  width: 235px;
+  left: -200px;
+  position: absolute;
+}
+
+#rs {
+  margin-top: 300px;
+  margin-left: 16% !important;
+}
+
+.burger {
+  z-index: 1;
+  display: relative;
+  cursor: pointer;
+}
+.burger span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: white;
+  margin-bottom: 5px;
+}
+
+nav.open {
+  left: 0;
+}
+.burger.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(10px);
+}
+.burger.open span:nth-child(2) {
+  opacity: 0;
+  width: 0;
+}
+.burger.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10px);
+}
+
+nav {
+  transition: left ease-in 0.4s;
+}
+.burger span {
+  transition: all ease-in 0.4s;
+}
+
+.main {
+  background-color: white;
+  width: 1520px;
+  height: 650px;
+  cursor: pointer;
+}
