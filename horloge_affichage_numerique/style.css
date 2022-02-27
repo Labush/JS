@@ -1,0 +1,14 @@
+/*****https://github.com/Labush/JS*****/
+body {
+  background: #dfe6c5;
+}
+
+.horloge {
+  position: absolute;
+  top: 38%;
+  left: 44%;
+  color: #d17373;
+  font-weight: bold;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
